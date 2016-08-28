@@ -45,7 +45,7 @@ void init_target_properties()
 {
 }
 
-static int read_file2(const char *fname, char *data, int max_size)
+static int read_file2(char *fname, char *data, int max_size)
 {
     int fd, rc;
 
